@@ -8,6 +8,14 @@ Ik heb besloten de productpagina na te maken in plaats van de Home pagina. Deze 
 het mij uitdagender lijkt om de productenpagina (detailpagina) na te maken.
 
 
+11/11/2020
+Ik heb een breakdownschets gemaakt om de elementen van de pagina's die ik na ga maken in kaart te brengen en ik vind dit ook een goede manier om mijn 
+HTML skills weer op te frissen. Dit het is het resultaat:
+
+<img src="images/breakdownschets-apple_Tekengebied 1-01" width="375px" alt="breakdownschets-apple">
+<img src="images/breakdownschets-apple_Tekengebied 1-02" alt="breakdownschets-apple">
+
+
 
 ## Bronnenlijst
 1. -bron 1-
