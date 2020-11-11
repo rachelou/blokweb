@@ -13,7 +13,7 @@ Ik heb een breakdownschets gemaakt om de elementen van de pagina's die ik na ga 
 HTML skills weer op te frissen. Dit het is het resultaat:
 
 <img src="images/breakdownschets-apple_Tekengebied 1-01.jpg" width="375px" alt="breakdownschets-apple">
-<img src="images/breakdownschets-apple_Tekengebied 1-02.jpg" alt="breakdownschets-apple">
+<img src="images/breakdownschets-apple_Tekengebied 1-02.jpg" width="375px" alt="breakdownschets-apple">
 
 
 
