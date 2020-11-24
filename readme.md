@@ -5,7 +5,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 10/11/2020
 Ik heb besloten de productpagina na te maken in plaats van de Home pagina. Deze keuze heb ik gemaakt, omdat 
-het mij uitdagender lijkt om de productenpagina (detailpagina) na te maken.
+het mij uitdagender lijkt om de productenpagina (detailpagina) na te maken. Ik ga dus de iPhone promotie pagina maken en de detailpagina.
 
 
 11/11/2020
