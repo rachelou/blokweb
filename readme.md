@@ -9,7 +9,7 @@ Vandaag heb ik de header en de eerste sectie van mijn pagina gemaakt. Ik heb dez
 
 De navigatie menu anders gedaan dan op de Apple website, omdat ik vind 
 dat een hamburger menu de discoverability verminderd. De pagina ziet er nu als volgt uit:
-<img src="extra/Screenshot-iphone-scherm.jpeg" width="375px" alt="screenshot-versie-1">
+<img src="extra/Screenshot-iphone-scherm.jpeg" width="150px" alt="screenshot-versie-1">
 
 Na mijn werk gedeeld te hebben met mijn groep heb ik veel feedback gekregen om code netter te schrijven en daarnaast problemen op te lossen. 
 Deze feedback zal ik gaan verwerken. 
