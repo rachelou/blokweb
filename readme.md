@@ -3,12 +3,24 @@
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-10/11/2020
+
+25/11/2020 Voortgang 1 (week 3)
+Vandaag heb ik de header en de eerste sectie van mijn pagina gemaakt. Ik heb deze website op iPhone 11 formaat gemaakt.
+
+De navigatie menu anders gedaan dan op de Apple website, omdat ik vind 
+dat een hamburger menu de discoverability verminderd. De pagina ziet er nu als volgt uit:
+<img src="extra/Screenshot-iphone-scherm.jpeg" width="375px" alt="screenshot-versie-1">
+
+Na mijn werk gedeeld te hebben met mijn groep heb ik veel feedback gekregen om code netter te schrijven en daarnaast problemen op te lossen. 
+Deze feedback zal ik gaan verwerken. 
+
+
+10/11/2020 (week 1)
 Ik heb besloten de productpagina na te maken in plaats van de Home pagina. Deze keuze heb ik gemaakt, omdat 
 het mij uitdagender lijkt om de productenpagina (detailpagina) na te maken. Ik ga dus de iPhone promotie pagina maken en de detailpagina.
 
 
-11/11/2020
+11/11/2020 (week 1)
 Ik heb een breakdownschets gemaakt om de elementen van de pagina's die ik na ga maken in kaart te brengen en ik vind dit ook een goede manier om mijn 
 HTML skills weer op te frissen. Dit het is het resultaat:
 
