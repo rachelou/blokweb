@@ -1,5 +1,149 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
 
+@font-face{
+         src: url('/fonts/SFProDisplay-Light.ttf');
+         font-family: 'CustomHeading';
+}
+
+
+
+body {
+  margin: auto;
+  font-family: CustomHeading;
+  scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar {
+
+    height: 0px;
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px)
+{
+
+.navigation {
+margin:0;
+background-color: #262628;
+}
+
+.navigation ul{
+margin: auto;
+font-size: 14px;
+text-decoration: none;
+list-style-type: none;
+display: flex;
+overflow: scroll;
+justify-content: flex-start;
+padding: 0;
+}
+
+.navigation ::after{
+}
+
+.navigation li{
+margin: 1em;
+}
+
+.navigation li:nth-last-child(1){
+padding-right: 1em;
+}
+
+.navigation a{
+text-decoration: none;
+color: #C9C9C9;
+
+ }
+
+  .navigation ul:nth-last-child(2) {
+background-color: black;
+justify-content: flex-end;
+  }
+
+
+  .navigation .logo{
+
+  }
+
+
+  .navigation .logo img {
+  width: 20px;
+  justify-content: center;
+  }
+
+
+  .navigation ul:nth-last-child(1) li:nth-last-child(5) a{
+    color: white;
+  }
+
+
+    .navigation ul:nth-last-child(2) img{
+        width: 15px;
+        margin-bottom: 0.8em;
+
+
+    }
+
+    .navigation ul:nth-last-child(2) li{
+margin-left: 33%;
+margin-bottom: 0;
+    }
+
+
+  .first {
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+  }
+
+  .first h1 {
+    font-size: 2em;
+    color:white;
+  }
+
+  .first h2 {
+padding-top: 2em;
+    font-size: 1em;
+    margin: 0;
+    color:white;
+  }
+
+  .first p {
+color: white;
+  }
+
+  .first a {
+    margin-top: 1em;
+    display: flex;
+  }
+
+
+/* Je zou hier denken, waaroom gebruik je niet   .first a:nth-last-child(1)
+Dit heb ik niet gedaan, omdat mijn image dan op een of ander manier niet werkt.. */
+  .first .buy-now{
+  text-decoration: none;
+  color: white;
+  background-color: #0071E4;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 1em;
+  border-radius: 28px;
+  }
+
+  .first a:nth-last-child(2){
+  text-decoration: none;
+  color: #06c;
+  justify-content: center;
+  }
+
+
+  .first img{
+  width: 75%;
+  }
