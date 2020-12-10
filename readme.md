@@ -4,8 +4,10 @@
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 10/12/2020 (week 5)
-Deze week heb ik een sectie toegevoegd aan de website. Het positioneren van elementen is nog niet helemaal goed gegaan, maar dit is het resultaat
+Deze week heb ik een sectie toegevoegd aan de website. Het positioneren van elementen is nog niet helemaal goed gegaan, maar dit is het resultaat:
+<br>
 <img src="extra/Screenshot at Dec 10 01-00-59.png" width="250px" alt="screenshot-versie-1">
+<br>
 <img src="extra/Screenshot at Dec 10 01-01-25.png" width="250px" alt="screenshot-versie-2">
 
 
