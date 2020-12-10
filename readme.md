@@ -3,6 +3,14 @@
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
+10/12/2020 (week 5)
+Deze week heb ik een sectie toegevoegd aan de website. Het positioneren van elementen is nog niet helemaal goed gegaan, maar dit is het resultaat
+<img src="extra/Screenshot at Dec 10 01-00-59.png" width="250px" alt="screenshot-versie-1">
+<img src="extra/Screenshot at Dec 10 01-01-25.png" width="250px" alt="screenshot-versie-2">
+
+
+
+
 
 25/11/2020 Voortgang 1 (week 3)
 Vandaag heb ik de header en de eerste sectie van mijn pagina gemaakt. Ik heb deze website op iPhone 11 formaat gemaakt.
@@ -27,6 +35,7 @@ HTML skills weer op te frissen. Dit het is het resultaat:
 
 <img src="images/breakdownschets-apple_Tekengebied 1-01.jpg" width="375px" alt="breakdownschets-apple">
 <img src="images/breakdownschets-apple_Tekengebied 1-02.jpg" width="375px" alt="breakdownschets-apple">
+
 
 
 
