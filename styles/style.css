@@ -1,7 +1,12 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;
+html,
+*::after,
+*::before {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
+
 
 @font-face{
          src: url('/fonts/SFProDisplay-Light.ttf');
@@ -12,7 +17,7 @@
 
 body {
   margin: auto;
-  font-family: CustomHeading;
+  font-family: 'CustomHeading';
   scroll-behavior: smooth;
 
 }
@@ -67,10 +72,6 @@ justify-content: flex-end;
   }
 
 
-  .navigation .logo{
-
-  }
-
 
   .navigation .logo img {
   width: 20px;
@@ -79,7 +80,7 @@ justify-content: flex-end;
 
 
   .navigation ul:nth-last-child(1) li:nth-last-child(5) a{
-    color: white;
+    color: #ffffff;
   }
 
 
@@ -99,23 +100,25 @@ margin-bottom: 0;
   .first {
     text-align: center;
     background-color: black;
-    height: 100vh;
+    height: 110vh;
+    margin-bottom: 2em;
   }
 
-  .first h1 {
+.first h1 {
     font-size: 2em;
-    color:white;
+    color:#ffffff;
   }
 
-  .first h2 {
+ .first h2 {
 padding-top: 2em;
     font-size: 1em;
     margin: 0;
-    color:white;
+    color:#ffffff;
+    text-align: center;
   }
 
   .first p {
-color: white;
+color: #ffffff;
   }
 
   .first a {
@@ -124,17 +127,17 @@ color: white;
   }
 
 
+
 /* Je zou hier denken, waaroom gebruik je niet   .first a:nth-last-child(1)
 Dit heb ik niet gedaan, omdat mijn image dan op een of ander manier niet werkt.. */
-  .first .buy-now{
+  .first a:first-of-type{
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   background-color: #0071E4;
   justify-content: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding: 1em;
+  padding: 0.6em;
   border-radius: 28px;
+  width: 20%;
   }
 
   .first a:nth-last-child(2){
@@ -146,4 +149,102 @@ Dit heb ik niet gedaan, omdat mijn image dan op een of ander manier niet werkt..
 
   .first img{
   width: 75%;
+
+  }
+
+  .second {
+    display: grid;
+  }
+
+  .second h1 {
+color: #000000;
+text-align: center;
+margin: 0;
+  }
+
+  .second a {
+text-align: center;
+margin-top: 1em;
+margin-bottom: 1em;
+text-decoration: none;
+color: #06c;
+font-size: 1.2em;
+  }
+
+  .second h1 {
+    font-size: 2em;
+  }
+
+  .second container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .second container:nth-of-type(1) article  {
+padding: 1em;
+flex: 1;
+flex-basis: 35%;
+  }
+
+  .second container:nth-of-type(1) article p {
+  font-size: 1  em;
+  }
+
+
+
+.second container:nth-of-type(1) article a {
+text-align: left;
+display: block;
+
+  }
+
+  .second container article img{
+margin-top: 1em;
+display: block;
+width: 100%;
+  }
+
+  .second container article:nth-of-type(4) img{
+margin-top: 1em;
+display: block;
+width: 80%;
+  }
+
+  .second container:nth-of-type(1) hgroup {
+    margin-top: 1em;
+  }
+
+  .second container:nth-of-type(1) article h1, h2{
+text-align: left;
+margin: 0;
+  }
+
+  .second container:nth-of-type(1) article h1{
+font-size: 1.2em;
+margin-bottom: 0.7em;
+  }
+
+  .second container:nth-of-type(1) article h2{
+font-size: 0.9em;
+  }
+
+  .second container:nth-of-type(1) article a:nth-child(1){
+    text-decoration: none;
+    width: 3em;
+    padding: 0.6em;
+    font-size: 0.9em;
+    color: #ffffff;
+    background-color: #0071E4;
+text-align: center;
+    border-radius: 28px;
+
+  }
+
+  .second container:nth-of-type(1) article a:nth-child(2){
+font-size: 1em;
+  }
+
+  .second container:nth-of-type(1) article:nth-of-type(4){
+margin-top: 1.5em;
   }
