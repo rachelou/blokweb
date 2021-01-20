@@ -320,10 +320,12 @@ margin-top: 1.5em;
 
   /* Responsive header */
 .nav-items {
+  display: none;
   background-color: black;
   width: 100vw;
   height: 100vw;
   color: white;
+  padding-bottom: 500px;;
 
 }
 
