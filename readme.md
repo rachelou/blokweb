@@ -95,6 +95,7 @@ het mij uitdagender lijkt om de productenpagina (detailpagina) na te maken. Ik g
 Ik ben deze week niet heel ver gekomen. Ik heb de navigatie toegevoegd en een Heroshot. Ik
 heb hierbij alleen nog gebruik gemaakt van HTML/CSS. Nog geen Javascript dus.
 <br>
+<br>
 <img src="extra/screenshot-voortgang1.png" width="250px" alt="screenshot-versie-1">
 <br>
 
