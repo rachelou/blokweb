@@ -76,8 +76,11 @@ Deze week heb ik helaas niks afgekregen.
 Deze week heb ik de product overzicht toegevoegd aan de iPhone merken pagina. Ik ben trots op dit gedeelte, omdat
 ik dit heb gemaakt met flex box. Dit is iets, waarmee ik in het begin van het vak veel mee kampte.
 Ik moet nog wel vee leren over flexbox en grid.
+<br>
 <img src="extra/screenshot-voortgang2.png" width="250px" alt="screenshot-versie-1">
+<br>
 <img src="extra/screenshot-voortgang2.2.png" width="250px" alt="screenshot-versie-1">
+<br>
 <img src="extra/screenshot-voortgang2.3.png" width="250px" alt="screenshot-versie-1">
 
 
