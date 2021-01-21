@@ -56,12 +56,15 @@ ook veel code dat een beetje oud is en niet meer gebruikt word. Daarnaast moet i
 
 - Ik moet de opdracht herkansen. Ik heb niet genoeg af. Ik moet
 nog flink gaan door werken
-
-**Screenshot(s):**
+<br>
 <img src="extra/screenshot-voortgang3.png" width="250px" alt="screenshot-versie-1">
 <img src="extra/screenshot-voortgang3.2.png" width="250px" alt="screenshot-versie-1">
 <img src="extra/screenshot-voortgang3.3.png" width="250px" alt="screenshot-versie-1">
 <img src="extra/screenshot-voortgang3.4.png" width="250px" alt="screenshot-versie-1">
+<br>
+**Screenshot(s):**
+<br>
+
 
 
 
