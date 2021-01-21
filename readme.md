@@ -77,6 +77,7 @@ Deze week heb ik de product overzicht toegevoegd aan de iPhone merken pagina. Ik
 ik dit heb gemaakt met flex box. Dit is iets, waarmee ik in het begin van het vak veel mee kampte.
 Ik moet nog wel vee leren over flexbox en grid.
 <br>
+<br>
 <img src="extra/screenshot-voortgang2.png" width="250px" alt="screenshot-versie-1">
 <br>
 <img src="extra/screenshot-voortgang2.2.png" width="250px" alt="screenshot-versie-1">
@@ -89,12 +90,13 @@ Ik moet erop letten dat ik geen gebruik maak van classes en code goed reviewen, 
 ik geen onnodige code heb. De vormgeving lijkt wel heel op die van Apple. Dit ziet
 er dus wel goed uit. Ik heb besloten de productpagina na te maken in plaats van de Home pagina. Deze keuze heb ik gemaakt, omdat
 het mij uitdagender lijkt om de productenpagina (detailpagina) na te maken. Ik ga dus de iPhone promotie pagina maken en de detailpagina.
-
+<br>
 **Screenshot(s):**
 Ik ben deze week niet heel ver gekomen. Ik heb de navigatie toegevoegd en een Heroshot. Ik
 heb hierbij alleen nog gebruik gemaakt van HTML/CSS. Nog geen Javascript dus.
+<br>
 <img src="extra/screenshot-voortgang1.png" width="250px" alt="screenshot-versie-1">
-
+<br>
 
 
 ### Agenda voor meeting
