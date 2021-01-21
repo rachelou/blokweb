@@ -1,143 +1,289 @@
 /* CSS Document */
-html,
-*::after,
-*::before {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
-
-
+/* Font inladen */
 @font-face {
-src: url('./fonts/SFProDisplay-Light.ttf');
-font-family: MyWebFont;
+  src: url('./fonts/SFProDisplay-Light.ttf');
+  font-family: MyWebFont;
 }
 
 body {
-margin: auto;
-font-family: MyWebFont;
-scroll-behavior: smooth;
-
+  margin: auto;
+  font-family: MyWebFont;
+  scroll-behavior: smooth;
 }
 
-
+/* blokkeren van scrollbar (dit werk alleen voor Chrome)  */
 ::-webkit-scrollbar {
-    height: 0px;
-    width: 0px;
-    background: transparent; }
-
-
-
-
-@media only screen and (min-width: 375px) and (max-width: 767px)
-{
-
-
-
-.navigation {
-margin:0;
-background-color: rgb(20, 20, 21);
+  height: 0px;
+  width: 0px;
+  background: transparent;
 }
 
-.navigation ul{
-margin: auto;
-font-size: 14px;
-text-decoration: none;
-list-style-type: none;
-display: flex;
-padding: 0;
-overflow: auto;
-align-items: center;
+/* Responsive design  */
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  body.noscroll {
+    overflow: hidden;
+  }
+
+  /* Vormgeving voor alle underordered lists op de nav */
+  nav ul {
+    margin: auto;
+    font-size: 14px;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    overflow: auto;
+  }
+
+  /* Vormgeving voor alle list items underordered lists op de nav */
+  nav ul li img {
+    width: 50px;
+    height: 50px;
+  }
+
+  nav ul li {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  /*Bovenste gedeelte nav */
+  nav ul:nth-of-type(1) {
+    margin: auto;
+    font-size: 14px;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    width: 100vw;
+    background-color: black;
+    z-index: 100;
+    position: relative;
+  }
+
+  /*Alle list items bovenste gedeelste nav*/
+  nav ul:nth-of-type(1) li {
+    width: 100%;
+    padding: 0% 1% 0 1%;
+  }
+
+  /*positie hamburger icoon*/
+  nav ul:nth-of-type(1) li:nth-of-type(2) {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  /* Shopping cart transitie */
+  nav ul:nth-of-type(1) li:nth-of-type(3) {
+    -webkit-transition: all 0.5s ease-in-out;
+  }
+
+  /* Apple logo */
+  nav ul:nth-of-type(1) li:nth-of-type(2) img {
+    width: 20px;
+    justify-content: center;
+  }
+
+  /* Shopping cart */
+  nav ul:nth-of-type(1) li:nth-of-type(3) img {
+    width: 20px;
+  }
+
+  /* Responsive dropdownmenu  */
+  nav ul:nth-of-type(2) {
+    padding-top: 4em;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    transform: translateY(-100%);
+    transition: 600ms;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+  }
+
+  /* alle unordered navigatie items van dropdown menu*/
+  nav ul:nth-of-type(2) li {
+    margin: 1em;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 46px;
+    border-bottom: 4px solid #424245;
+    border-width: 1px;
+    padding: 8px;
+    width: 70%;
+  }
+
+  /* Dropdown responsive menu link stijl */
+  nav ul:nth-of-type(2) li a {
+    color: #cccccc;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5em;
+  }
+
+  nav ul:nth-of-type(2) li:nth-of-type(1) {
+    width: 95%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  /* Search icoon van responsive dropdown menu  */
+  nav ul:nth-of-type(2) img:nth-of-type(1) {
+    color: #7b7b81;
+    display: inline;
+    width: 3%;
+    position: absolute;
+    left: 40px;
+    top: 68px;
+  }
+
+  /* Tekstveld dropdownmenu  */
+  input[type=search] {
+    background: #1d1d1f;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 8px;
+    height: 35px;
+    border: none;
+    display: inline;
+    text-indent: 30px;
+    margin-bottom: 10px;
+  }
+
+  /* Tekstveld placeholder dropdownmenu  */
+  ::placeholder {
+    color: #858589;
+    font-size: 1.7em;
+    margin-left: 50px;
+    font-weight: 250;
+  }
+
+  /* Dropdown menu icoon */
+  button {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  button div {
+    width: 15px;
+    height: 1px;
+    background-color: rgb(183, 183, 183);
+    margin-bottom: 0.8em;
+    transition: 0.4s;
+    margin-top: 9px;
+  }
+
+  /* Navigatie effecten  */
+  /* Effecten voor hamburger icoon */
+  nav.menu-open div:nth-of-type(1) {
+    transform: rotate(-45deg) translate(-2px, -1px);
+    margin-top: 9px;
+  }
+
+  /* Effecten voor hamburger icoon */
+  nav.menu-open div:nth-of-type(2) {
+    transform: rotate(45deg) translate(-7.8px, -5px);
+    margin-top: 9px;
+  }
+
+  /* Verdwijn effect van shopping cart  */
+  nav.menu-open ul:nth-of-type(1) li:nth-of-type(3) {
+    opacity: 0%;
+    -webkit-transition: all 0.5s ease-in-out;
+  }
+
+  /* Slidedown van responsive dropdown menu  */
+  nav.menu-open ul:nth-of-type(2) {
+    transform: translateY(0%);
+  }
+
+  /* Vormgeving van producten scroll */
+  nav ul:nth-of-type(3) {
+    margin: 0;
+    background-color: rgb(20, 20, 21);
+    padding: 20px 0px 20px 0px;
+  }
+
+  nav ul:nth-of-type(3) li {
+    white-space: nowrap;
+    font-size: 15px;
+    padding: 0px 12px 0px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul:nth-of-type(3) li:nth-of-type(1)::after {
+    content: "New";
+    color: #f56300;
+  }
+
+  nav ul:nth-of-type(3) li:nth-of-type(2)::after {
+    content: "New";
+    color: #f56300;
+  }
+
+  nav ul:nth-of-type(3) li img {
+    width: 80px;
+    height: 80px;
+  }
+
+main .sticky-price{
+  background-color: white !important;
+  height: 10px;
+
 }
-.navigation ::after{
+
+.sticky-price ul {
+  display:flex;
+  list-style: none;
+margin: 0;
+    border-bottom: 1px solid grey;
+    
 }
 
-.navigation ul:nth-of-type(2) li{
-margin: 1em;
-}
-
-  .navigation ul:nth-of-type(1) {
-background-color: black;
-width: 100%;
-overflow: hidden;
-
-  }
-
-  .navigation ul:nth-of-type(1) li{
-width: 100%;
-padding-left:70px;
-padding-right: 70px;
-
-  }
-
-  .navigation ul:nth-of-type(1) li:nth-of-type(1){
-
-padding-left: 2.2em;
-
-  }
-
-  .navigation ul:nth-of-type(1) li:nth-of-type(2){
-
-
-  }
-
-  .navigation ul:nth-of-type(1) li:nth-of-type(3){
-
-
-  }
-
-
-
-  .navigation .logo img {
-  width: 20px;
-  justify-content: center;
-  }
-
-
-  .navigation ul:nth-last-child(1) li:nth-last-child(5) a{
-    color: #ffffff;
-  }
-
-
-    .navigation ul:nth-of-type(1) img{
-        width: 15px;
-        margin-bottom: 0.8em;
-
-
-    }
-
-.overlay {
-  width:100%;
+.sticky-price ul li  {
+  flex-direction: row;
+  font-size: 1em;
+    color: black;
+    align-items: flex-end;
 
 }
 
 
-    .container {
-      cursor: pointer;
+.sticky-price p {
+    color: black !important;
 
-    }
+}
 
-    .bar1, .bar2 {
-      width: 15px;
-      height: 1px;
-      background-color: rgb(183, 183, 183);
-        margin-bottom: 0.8em;
-      transition: 0.4s;
-    }
+.sticky-price li:nth-of-type(1) p {
+      font-size: 20px;
+      margin-right: 80px;
+      white-space: nowrap;
+      font-weight: 300;
+         -webkit-text-stroke-width: 1px
+
+}
+
+.sticky-price li:nth-of-type(2) p {
+      font-size: 13px;
+      padding-top: 5px;
+
+}
 
 
 
-    .change .bar1 {
-      transform: rotate(-45deg) translate(-2px, -1px);
-      margin-top: 9px;
-    }
 
-    .change .bar2 {
-      transform: rotate(45deg) translate(-7.8px, -5px);
-      margin-top: 9px;
-    }
 
-  .hero {
+  /* Eerste sectie  */
+  main section:nth-of-type(1) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,238 +292,133 @@ padding-left: 2.2em;
     height: 120vh;
     margin-bottom: 2em;
     overflow: hidden;
-
   }
 
-  .navigation li img {
-    width: 50px;
-    height: 50px;
-    }
-
-      .navigation li {
-      color: white;
-      font-size: 0.8em;
-      text-align: center;
-      }
-
-
-
-
-
-.hero h1 {
+  main section:nth-of-type(1) h1 {
     font-size: 2em;
-    color:#ffffff;
+    color: #ffffff;
   }
 
- .hero h2 {
-padding-top: 2em;
+  main section:nth-of-type(1) h2 {
+    padding-top: 2em;
     font-size: 1em;
     margin: 0;
-    color:#ffffff;
+    color: #ffffff;
     text-align: center;
   }
 
-  .hero p {
-color: #ffffff;
+  main section:nth-of-type(1) p {
+    color: #ffffff;
   }
 
-  .hero a {
+  main section:nth-of-type(1) a {
     margin-top: 1em;
     display: flex;
   }
 
-
-
-/* Je zou hier denken, waaroom gebruik je niet   .hero a:nth-last-child(1)
-Dit heb ik niet gedaan, omdat mijn image dan op een of ander manier niet werkt.. */
-  .hero a:first-of-type{
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #0071E4;
-  justify-content: center;
-  padding: 0.6em;
-  border-radius: 28px;
-  width: 20%;
+  main section:nth-of-type(1) a:nth-of-type(1) {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0071E4;
+    justify-content: center;
+    padding: 0.6em;
+    border-radius: 28px;
+    width: 20%;
   }
 
-  .hero a:last-of-type{
-  text-decoration: none;
-  color: #06c;
-  justify-content: center;
+  main section:nth-of-type(1) a:nth-of-type(2) {
+    text-decoration: none;
+    color: #06c;
+    justify-content: center;
   }
 
-
-  .hero div{
-background-color: yellow;
-flex-shrink: 1;
-flex-grow: 1;
-height: 2em;
-display: flex;
-justify-content: center;
-
-  }
-
-
-  .hero img{
-height: 100%;
-width: auto;
-  }
-
-  .second {
+  /* 2e sectie  */
+  main section:nth-of-type(2) {
     display: grid;
   }
 
-  .second h1 {
-color: #000000;
-text-align: center;
-margin: 0;
-  }
-
-  .second a {
-text-align: center;
-margin-top: 1em;
-margin-bottom: 1em;
-text-decoration: none;
-color: #06c;
-font-size: 1.2em;
-  }
-
-  .second h1 {
+  main section:nth-of-type(2) h1 {
     font-size: 2em;
+    color: #000000;
+    text-align: center;
+    margin: 0;
   }
 
-  .second container {
+  main section:nth-of-type(2) a {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-decoration: none;
+    color: #06c;
+    font-size: 1.2em;
+  }
+
+  .iPhone-Merkenpagina {
+background-color: white;
+  }
+
+  /* Producten overzicht */
+  main section:nth-of-type(2) container {
     display: flex;
     flex-wrap: wrap;
-
   }
 
-  .second container:nth-of-type(1) article  {
-padding: 1em;
-flex: 1;
-flex-basis: 35%;
+  main section:nth-of-type(2) container article img {
+    margin-top: 1em;
+    display: block;
+    width: 100%;
   }
 
-  .second container:nth-of-type(1) article p {
-  font-size: 1  em;
+  main section:nth-of-type(2) container:nth-of-type(1) article {
+    padding: 1em;
+    flex: 1;
+    flex-basis: 35%;
   }
 
-
-
-.second container:nth-of-type(1) article a {
-text-align: left;
-display: block;
-
+  main section:nth-of-type(2) container:nth-of-type(1) article h1, h2 {
+    text-align: left;
+    margin: 0;
   }
 
-  .second container article img{
-margin-top: 1em;
-display: block;
-width: 100%;
+  main section:nth-of-type(2) container:nth-of-type(1) article h1 {
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.7em;
   }
 
-  .second container article:nth-of-type(4) img{
-display: block;
-width: 85%;
+  main section:nth-of-type(2) container:nth-of-type(1) article h2 {
+    font-size: 0.9em;
   }
 
-
-
-  .second container:nth-of-type(1) article h1, h2{
-text-align: left;
-margin: 0;
+  main section:nth-of-type(2) container:nth-of-type(1) article p {
+    font-size: 1 em;
   }
 
-  .second container:nth-of-type(1) article h1{
-font-size: 1.2em;
-margin-top: 1em;
-margin-bottom: 0.7em;
+  main section:nth-of-type(2) container:nth-of-type(1) article a {
+    text-align: left;
+    display: block;
   }
 
-  .second container:nth-of-type(1) article h2{
-font-size: 0.9em;
-  }
-
-  .second container:nth-of-type(1) article a:nth-child(1){
+  main section:nth-of-type(2) container:nth-of-type(1) article a:nth-child(1) {
     text-decoration: none;
     width: 3em;
     padding: 0.6em;
     font-size: 0.9em;
     color: #ffffff;
     background-color: #0071E4;
-text-align: center;
+    text-align: center;
     border-radius: 28px;
-
   }
 
-  .second container:nth-of-type(1) article a:nth-child(2){
-font-size: 1em;
+  main section:nth-of-type(2) container article:nth-of-type(4) img {
+    display: block;
+    width: 85%;
   }
 
-  .second container:nth-of-type(1) article:nth-of-type(4){
-margin-top: 1.5em;
+  main section:nth-of-type(2) container:nth-of-type(1) article a:nth-child(2) {
+    font-size: 1em;
   }
 
-  /* Responsive header */
-.nav-items {
-  display: none;
-  background-color: black;
-  width: 100vw;
-  height: 100vw;
-  color: white;
-  padding-bottom: 500px;;
-
-}
-
-.nav-items a {
-color: #cccccc;
-text-decoration: none;
-list-style-type: none;
-font-size: 1.5em;
-}
-
-.nav-items li {
-list-style-type: none;
-text-align: left;
-margin-left: 46px;
-border-bottom: 4px solid #424245;
-border-width: 1px;
-padding: 8px;
-width: 70%;
-}
-
-input[type=search]{
-	background: #1d1d1f;          /* Overridden by background-color: white; */          /* Irrelevant, I guess */
-  width: 90%;
-  margin-left: 20px;
-  border-radius: 8px;
-  height: 35px;
-  border: none;
-  display:inline;
-  text-indent: 35px;
-  margin-bottom: 10px;
-}
-
- ::placeholder { /* Edge */
-  color: #858589;
-  font-size: 1.7em;
-  margin-left: 50px;
-  font-weight: 250;
-
-
-}
-
-.nav-items img{
-  color: #7b7b81;
-  display: inline;
-  width: 4%;
-  position: absolute;
-  left: 30px;
-  top: 73px;
-}
-
-.nav-items li:nth-of-type(1) {
-width: 95%;
-margin-left: 0px;
-margin-bottom: 10px;
-}
+  main section:nth-of-type(2) container:nth-of-type(1) article:nth-of-type(4) {
+    margin-top: 1.5em;
+  }
