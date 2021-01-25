@@ -48,6 +48,7 @@ ook veel code dat een beetje oud is en niet meer gebruikt word. Daarnaast moet i
 5. https://stackoverflow.com/
 6. https://developer.mozilla.org/
 7. https://www.youtube.com/watch?v=tEC4kqzNTnM&t=54s
+8. https://www.codingsnow.com/2021/01/responsive-image-slider-with-manual.html
 
 
 
