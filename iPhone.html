@@ -1,6 +1,5 @@
 <!doctype html>
-<html lang="nl">
-
+<html lang="EN">
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
@@ -9,22 +8,21 @@
 	<link href="styles/style.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
 </head>
-
-<body>
+<body class="detailpagina">
 	<header>
 		<nav>
 			<ul>
 				<li>
-					<button>
-						<div> </div>
-						<div> </div>
-						<button>
+					<button aria-label="menu button">
+						<span> </span>
+						<span> </span>
+					</button>
 				</li>
-				<li><img src="./images/apple.svg"></li>
-				<li><img src="./images/shopping-bag.svg"></li>
+				<li><a href="index.html"><img src="./images/apple.svg" alt="Return to homepage"></a></li>
+				<li><img src="./images/shopping-bag.svg" alt="Shopping cart"></li>
 			</ul>
 			<ul>
-				<li> <img src="./images/search-interface-symbol.svg">
+				<li> <img src="./images/search-interface-symbol.svg" alt="zoeken">
 					<input type=search name=s placeholder="Search apple.com" />
 				</li>
 				<li><a href="#">Mac</a></li>
@@ -38,17 +36,70 @@
 			</ul>
 		</nav>
 	</header>
-	<main class="iPhone-Merkenpagina">
-<section class="sticky-price">
-<ul>
-<li><p>Iphone 12 Pro<p></li>
-<li><p> From $41.62/mo. or $999 before trade-in*</p> </li>
-<li> </li>
-</ul>
-</section>
+	<main>
+		<section>
+			<ul>
+				<li>
+					<p>Iphone 12 Pro
+					<p>
+				</li>
+				<li>
+					<p> From $41.62/mo. or $999 before trade-in*</p>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<p>New</p>
+			<h1>Buy iPhone 12 </h1>
+			<p> Get up to $250 with apple Trade in* </p>
+			<a href="#"> See how trade-in works </a>
+			<img src="./images/iphone-12-detailpagina-graphite.jpg" alt="Iphone 12 product image" id="productpic">
+			<a href="#"> Chat with an iPhone Specialist </a>
+		</section>
+		<section>
+			<h2>Choose your finish</h2>
+			<ul>
+				<li>
+					<p>Graphite</p>
+				</li>
+				<li>
+					<p>Silver</p>
+				</li>
+				<li>
+					<p>Gold</p>
+				</li>
+				<li>
+					<p>Pacific Blue</p>
+				</li>
+			</ul>
+			<!-- Code van de slide is niet van mij -->
+		</section>
+		<section>
+			<div class="slide active">
+				<img src="./images/1.jpg" alt="Iphone promotie afbeelding 1">
+			</div>
+			<div class="slide">
+				<img src="./images/2.jpg" alt="Iphone promotie afbeelding 1">
+			</div>
+			<div class="slide">
+				<img src="./images/3.jpg" alt="Iphone promotie afbeelding 1">
+			</div>
+			<div class="slide">
+				<img src="./images/4.jpg" alt="Iphone promotie afbeelding 1">
+			</div>
+			<div class="slide">
+				<img src="./images/5.jpg" alt="Iphone promotie afbeelding 1">
+			</div>
+			<div class="navigation">
+				<div class="btn active"></div>
+				<div class="btn"></div>
+				<div class="btn"></div>
+				<div class="btn"></div>
+				<div class="btn"></div>
+			</div>
+		</section>
 	</main>
-
-
-<script src="scripts/script.js"></script>
+	<script src="scripts/script.js"></script>
 </body>
+
 </html>

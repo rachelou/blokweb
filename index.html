@@ -1,31 +1,32 @@
 <!doctype html>
-<html lang="nl">
+<html lang="EN">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>iPhone </title>
-	<link href="styles/style.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+	<link href="styles/style.css" rel="stylesheet">
+
 </head>
 
-<body>
+<body class="homepage">
 	<header>
 		<nav>
 			<ul>
 				<li>
-					<button>
-						<div> </div>
-						<div> </div>
-						<button>
+					<button aria-label="menu button">
+						<span> </span>
+						<span> </span>
+					</button>
 				</li>
-				<li><img src="./images/apple.svg"></li>
-				<li><img src="./images/shopping-bag.svg"></li>
+				<li><a href="index.html"><img src="./images/apple.svg" alt="Return to homepage"></a></li>
+				<li><img src="./images/shopping-bag.svg" alt="Shopping cart"></li>
 			</ul>
 			<ul>
-				<li> <img src="./images/search-interface-symbol.svg">
-					<input type=search name=s placeholder="Search apple.com" />
+				<li> <img src="./images/search-interface-symbol.svg" alt="zoeken">
+					<input type="search" name="search" placeholder="Search apple.com" />
 				</li>
 				<li><a href="#">Mac</a></li>
 				<li><a href="#">iPad</a></li>
@@ -37,25 +38,25 @@
 				<li><a href="#">Support</a></li>
 			</ul>
 			<ul>
-				<li><img src="./images/iphone-12-pro-dark.svg" />iPhone 12 Pro
+				<li data-new="New"><img src="./images/iphone-12-pro-dark.svg" alt="iphone 12 pro">iPhone 12 Pro
 				</li>
-				<li><img src="./images/iphone-12-klein.svg" />iPhone 12
+				<li data-new="New"><img src="./images/iphone-12-klein.svg" alt="iphone 12">iPhone 12
 				</li>
-				<li><img src="./images/iPhone-se.svg" />iPhone SE
+				<li data-new="New"><img src="./images/iPhone-se.svg" alt="iphone se">iPhone SE
 				</li>
-				<li><img src="./images/iPhone-11.svg" />iPhone 11
+				<li><img src="./images/iPhone-11.svg" alt="iphone 11">iPhone 11
 				</li>
-				<li><img src="./images/iphone-xr.svg" />iPhone Xr
+				<li><img src="./images/iphone-xr.svg" alt="iphone xr">iPhone Xr
 				</li>
-				<li><img src="./images/compare.svg" />Compare
+				<li><img src="./images/compare.svg" alt="compare">Compare
 				</li>
-				<li><img src="./images/airpods.svg" />Airpods
+				<li><img src="./images/airpods.svg" alt="airpods">Airpods
 				</li>
-				<li><img src="./images/acc.svg" />Accessories
+				<li><img src="./images/acc.svg" alt="accessories">Accessories
 				</li>
-				<li><img src="./images/card.svg" />Apple Card
+				<li><img src="./images/card.svg" alt="apple card">Apple Card
 				</li>
-				<li><img src="./images/ios14.svg" />IOS 14
+				<li><img src="./images/ios14.svg" alt="IOS 14">IOS 14
 				</li>
 			</ul>
 		</nav>
@@ -68,16 +69,15 @@
 					<p> before trade‑in </p>
 					<a href="#"> Buy now </a>
 					<a href="#"> Learn more > </a>
-					<img src="./images/iPhone12.jpg">
+					<img src="./images/iPhone12.jpg" alt="iphone 12 pro ">
 		</section>
 		<section>
-			<h1> Which phone is right</h1>
-			<h1> for you? </h1>
+			<h1> Which phone is right	for you? </h1>
 			<a href="#"> Compare all iPhone models > </a>
-			<container>
-				<article>
-					<img src="./images/black.jpg">
-					<h1> iPhone 12 Pro <h1>
+			<ul>
+				<li>
+					<img src="./images/black.jpg" alt="iphone 12 pro">
+					<h1> iPhone 12 Pro </h1>
 							<h2> From $999 </h2>
 							<p> 6.1” or 6.7” </p>
 							<p> Super Retina XDR display </p>
@@ -89,10 +89,10 @@
 							<p>
 								<a href="#"> Buy </a>
 								<a href="#"> Learn more > </a>
-				</article>
-				<article>
-					<img src="./images/green.jpg">
-					<h1> iPhone 12 <h1>
+				</li>
+				<li>
+					<img src="./images/green.jpg" alt="iphone 12">
+					<h1> iPhone 12 </h1>
 							<h2> From $699** </h2>
 							<p> 5.4” or 6.1” </p>
 							<p> Super Retina XDR display </p>
@@ -100,14 +100,13 @@
 							<p> A14 Bionic chip </p>
 							<p> Advanced dual‑camera system (Ultra Wide, Wide) </p>
 							<p> — </p>
-							<p> Compatible with MagSafe accessories
-							<p>
+							<p> Compatible with MagSafe accessories </p>
 								<a href="#"> Buy </a>
 								<a href="#"> Learn more > </a>
-				</article>
-				<article>
-					<img src="./images/green.jpg">
-					<h1> iPhone SE <h1>
+				</li>
+				<li>
+					<img src="./images/green.jpg" alt="iphone se">
+					<h1> iPhone SE </h1>
 							<h2> From $399 </h2>
 							<p> 4.7” </p>
 							<p> Retina HD display </p>
@@ -116,14 +115,13 @@
 							<p> Single-camera system
 								(Wide) </p>
 							<p> — </p>
-							<p> —
-							<p>
+							<p> — </p>
 								<a href="#"> Buy </a>
 								<a href="#"> Learn more > </a>
-				</article>
-				<article>
-					<img src="./images/superblack.jpg">
-					<h1> iPhone 11 <h1>
+				</li>
+				<li>
+					<img src="./images/superblack.jpg" alt="iphone 11">
+					<h1> iPhone 11 </h1>
 							<h2> From $599 </h2>
 							<p> 6.1 </p>
 							<p> Liquid Retina HD display </p>
@@ -132,16 +130,13 @@
 							<p> ADual-camera system
 								(Ultra Wide, Wide) </p>
 							<p> — </p>
-							<p> —
-							<p>
+							<p> — </p>
 								<a href="#"> Buy </a>
 								<a href="#"> Learn more > </a>
-				</article>
-			</container>
+				</li>
+			</ul>
 		</section>
 	</main>
-
-
 <script src="scripts/script.js"></script>
 </body>
 </html>
